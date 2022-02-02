@@ -1,5 +1,16 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /*headerا*/
+    .none.sub-nav {
+        display: none;
+    }
+    .nav1{
+        justify-content: space-between;
+    }
+    .nav1 .sub-nav {
+        width: calc(100% / 2);
+    }
+    /* first sec */
     section.main-sec .news-holder {
         flex-direction: column;
         height: 220vh;
@@ -14,12 +25,34 @@
     .heading-row p,.heading-row h1  {
         font-size: 13px;
     }
+    /* sacond sec new */
     .card-news h1,.child-box-news h2 {
         font-size: 15px;
     }
-    .card-news p{
+    .popular-news-sec .card-news p{
         font-size: 13px;
     }
+    .popular-news-sec .card-group {
+        flex-direction: column;
+    }
+    .popular-news-sec .flex-holder {
+        flex-direction: column;
+    }
+    .popular-news-holder {
+        width: 100%;
+    }
+    .popular-news-sec .Most-Read-holder {
+        width: 100%;
+        background-color: aliceblue;
+        margin-top: 10%;
+    }
+    .popular-news-sec .card{
+        margin-bottom: 3%;
+    }
+    section.container.popular-news-sec {
+        height: auto;
+    }
+
     /* nav responsive */
     li.none {
         display: none;
@@ -33,10 +66,20 @@
     li span{
         display: none;
     }
-    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
+    /*headerا*/
+    .none.sub-nav {
+        display: none;
+    }
+    .nav1{
+        justify-content: space-between;
+    }
+    .nav1 .sub-nav {
+        width: calc(100% / 2);
+    }
     section.main-sec.container,.container.popular-news-sec {
         max-width: 540px;
     }
@@ -54,19 +97,32 @@
     .heading-row p,.heading-row h1  {
         font-size: 13px;
     }
+    /* sacond sec new */
     .card-news h1,.child-box-news h2 {
         font-size: 15px;
     }
-    .card-news p{
+    .popular-news-sec .card-news p{
         font-size: 13px;
     }
-    .popular-news-holder .card-group {
-        display: flex;
-        flex-flow: row wrap;
+    .popular-news-sec .card-group {
+        flex-direction: column;
     }
-    .popular-news-holder .card-group>.card {
-        flex: 1 0 0%;
-        margin-bottom: 0;
+    .popular-news-sec .flex-holder {
+        flex-direction: column;
+    }
+    .popular-news-holder {
+        width: 100%;
+    }
+    .popular-news-sec .Most-Read-holder {
+        width: 100%;
+        background-color: aliceblue;
+        margin-top: 10%;
+    }
+    .popular-news-sec .card{
+        margin-bottom: 3%;
+    }
+    section.container.popular-news-sec {
+        height: auto;
     }
     li.none {
         display: none;
@@ -90,27 +146,57 @@
     }
     section.main-sec .news-holder {
         flex-direction: column;
+        height: 220vh;
     }
-    section.main-sec .parant-div.first{
+    section.main-sec .parant-div.first {
         margin-right: 0%;
         margin-bottom: 2%;
-        height: 100%;
     }
     section.main-sec .child-box-news {
         height: 100%;
     }
+    .heading-row p,.heading-row h1  {
+        font-size: 13px;
+    }
+        /* sacond sec new */
+        .card-news h1,.child-box-news h2 {
+            font-size: 15px;
+        }
+        .popular-news-sec .card-news p{
+            font-size: 13px;
+        }
+        .popular-news-sec .card-group {
+            flex-direction: column;
+        }
+        .popular-news-sec .flex-holder {
+            flex-direction: column;
+        }
+        .popular-news-holder {
+            width: 100%;
+        }
+        .popular-news-sec .Most-Read-holder {
+            width: 100%;
+            background-color: aliceblue;
+            margin-top: 10%;
+        }
+        .popular-news-sec .card{
+            margin-bottom: 3%;
+        }
+        section.container.popular-news-sec {
+            height: auto;
+        }
         li.hed{
-        display: none;
-    }
-      .nav1{
-        justify-content: space-between;
-    }
-    .nav1 .sub-nav {
-        width: calc(100% / 2);
-    }
-    li span{
-        display: none;
-    }
+            display: none;
+        }
+          .nav1{
+            justify-content: space-between;
+        }
+        .nav1 .sub-nav {
+            width: calc(100% / 2);
+        }
+        li span{
+            display: none;
+        }
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
