@@ -1,3 +1,4 @@
+
 # BBC News Website
 
 ## **About BBC** :newspaper: 
@@ -61,7 +62,7 @@ The technologies and guidelines that we agreed to use and follow are:
 - see a separate page that contains the news details (a photo, text description) and any related news.
 - add my opinion about the news, which will be added to the list of others opinions.
 - easily view the site when browsing on my mobile, tablet or desktop.
-
+- see the different news sections and each section should contain its related news (e.g. Politics, Sport, Economy, Tech ...etc )
 ## **User Journey**  :pencil2:
 
  - As the user enters the Event web application home, he can view different sections that shows (Latest News - Featured News - Popular News).
@@ -81,7 +82,7 @@ You can see our demo website [**Here**](https://gsg-g11.github.io/news-website-t
 
 ```
 - git clone https://github.com/GSG-G11/news-website-team5.git
-- cd climostate
+- cd news-website-team5
 - code . 
 ```
 
