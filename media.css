@@ -1,0 +1,85 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    section.main-sec .news-holder {
+        flex-direction: column;
+        height: 220vh;
+    }
+    section.main-sec .parant-div.first {
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+    section.main-sec .child-box-news {
+        height: 100%;
+    }
+    .heading-row p,.heading-row h1  {
+        font-size: 13px;
+    }
+    .card-news h1,.child-box-news h2 {
+        font-size: 15px;
+    }
+    .card-news p{
+        font-size: 13px;
+    }
+  }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    section.main-sec.container,.container.popular-news-sec {
+        max-width: 540px;
+    }
+    section.main-sec .news-holder {
+        flex-direction: column;
+        height: 220vh;
+    }
+    section.main-sec .parant-div.first {
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+    section.main-sec .child-box-news {
+        height: 100%;
+    }
+    .heading-row p,.heading-row h1  {
+        font-size: 13px;
+    }
+    .card-news h1,.child-box-news h2 {
+        font-size: 15px;
+    }
+    .card-news p{
+        font-size: 13px;
+    }
+    .popular-news-holder .card-group {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .popular-news-holder .card-group>.card {
+        flex: 1 0 0%;
+        margin-bottom: 0;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    section.main-sec.container,.container.popular-news-sec{
+        max-width: 720px;
+    }
+    section.main-sec .news-holder {
+        flex-direction: column;
+    }
+    section.main-sec .parant-div.first{
+        margin-right: 0%;
+        margin-bottom: 2%;
+        height: 100%;
+    }
+    section.main-sec .child-box-news {
+        height: 100%;
+    }
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    section.main-sec.container,.container.popular-news-sec {
+        max-width: 960px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
