@@ -354,7 +354,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
-h2 {
+.feature h2 {
   color: #4a4a4a;
   display: inline-block;
   padding: 10px;
