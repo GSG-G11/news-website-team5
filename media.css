@@ -52,7 +52,6 @@
     section.container.popular-news-sec {
         height: auto;
     }
-  }
 
     /* nav responsive */
     li.none {
@@ -67,7 +66,7 @@
     li span{
         display: none;
     }
-    }
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -186,19 +185,18 @@
         section.container.popular-news-sec {
             height: auto;
         }
-
         li.hed{
-        display: none;
-    }
-      .nav1{
-        justify-content: space-between;
-    }
-    .nav1 .sub-nav {
-        width: calc(100% / 2);
-    }
-    li span{
-        display: none;
-    }
+            display: none;
+        }
+          .nav1{
+            justify-content: space-between;
+        }
+        .nav1 .sub-nav {
+            width: calc(100% / 2);
+        }
+        li span{
+            display: none;
+        }
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 

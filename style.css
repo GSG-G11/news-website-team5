@@ -88,8 +88,8 @@ i.fas.fa-caret-down {
   justify-content: space-evenly;
   color: white;
   padding: 12px 16px;
-  position: fixed;
-  bottom: 0;
+  /* position: fixed;
+  bottom: 0; */
 }
 
 .ulFooter {
@@ -262,7 +262,8 @@ section.main-sec h1 {
   margin-bottom: 2%;
 }
 .popular-news-sec {
-  height: 150vh;
+  height: auto;
+  padding-bottom: 5%;
 }
 .popular-news-sec .flex-holder {
   display: flex;
