@@ -44,7 +44,7 @@ The technologies and guidelines that we agreed to use and follow are:
 - CSS3.
 - Git & Github.
 - Making the pages responsive for 3 devices: Mobile, Tablet and Desktop.
-- Vanilla Javascript (JS).
+
 
 
 ##### Guidlines
